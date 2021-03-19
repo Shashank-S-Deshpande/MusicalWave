@@ -1,0 +1,56 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url(backflute.jpg);
+}
+
+.banner{
+  font-family:Raleway;
+  font-size:20px;
+  font-weight:bolder;
+  transition:0.5s ease;
+}
+
+.banner button{
+  font-family:cursive;
+  margin-top:40px;
+  height:35px;
+  width:200px;
+  border-radius:50px;
+  border-color:#7bf25a;
+  transition:0.7s ease;
+  font-size:15px;
+  background-color:#3d403e;
+  color:#faeba2;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.banner button:hover{
+  box-shadow:inset 0px 40px 0 0 #faeba2;
+  color:#3d403e;
+}
+
+.Option{
+  color:transparent;
+}
+
+.Option a{
+  color:#ff8b61;
+  font-size:20px;
+}
+
+.Option a:hover{
+  color:#96fa99;
+}
+
+.banner h1:hover{
+
+}
+
+.banner h1{
+  color:#4dd2db;
+}

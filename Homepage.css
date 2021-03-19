@@ -1,0 +1,62 @@
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url(download.jpg);
+}
+
+.head button{
+  width:265px;
+  height:70px;
+  background-color:#454545;
+  color:#fffcfc;
+  font-family:sans-serif;
+  font-weight:bold;
+  font-size:17px;
+  transition:0.7s ease;
+}
+
+.head button:hover{
+  background-color:white;
+  color:#454545;
+}
+
+.image{
+  height:80vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.LogoM{
+  width:400px;
+  clip-path:circle()
+}
+
+.home{
+  font-size:20px;
+  font-family:sans-serif;
+  font-weight:bold;
+}
+
+.home h1{
+  background: -webkit-linear-gradient(lime, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:Recursive;
+}
+
+.home h3{
+  background: -webkit-linear-gradient(red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:Recursive;
+}
+
+.home p{
+  color:yellow;
+  font-size:17px;
+}
